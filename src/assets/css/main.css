@@ -1,0 +1,412 @@
+/* Define default Variable */
+/* Spacing */
+.p-0 {
+  padding: 0 !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+
+.px-2 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.b-5 {
+  position: relative;
+  bottom: 5px;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+/* Boreder */
+.rounded-0 {
+  border-radius: 0px !important;
+}
+
+.rounded-5 {
+  border-radius: 5px !important;
+}
+
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+@font-face {
+  font-family: "Proxima-Nova Bold";
+  src: url("~/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf");
+  font-weight: "bold";
+}
+@font-face {
+  font-family: "Proxima-Nova";
+  src: url("~/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf");
+}
+@font-face {
+  font-family: "Proxima-Nova semi-bold";
+  src: url("~/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf");
+}
+body {
+  font-family: "Proxima-Nova", "Proxima-Nova Bold", "Proxima-Nova semi-bold";
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.label-navigation, .nav ul li, .nav ul li:last-child {
+  float: left;
+  list-style-type: none;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  clear: both;
+  width: 100%;
+}
+.nav ul {
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
+}
+.nav ul li, .nav ul li:last-child {
+  border-right: 1px solid #2b2f33;
+}
+.nav ul li:nth-last-child(2), .nav ul li:last-child {
+  border-right: 0;
+}
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.nav-tabs {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-tabs li, .nav-tabs .nav ul li:last-child, .nav ul .nav-tabs li:last-child {
+  cursor: pointer;
+  float: left;
+  list-style-type: none;
+  padding: 20px;
+}
+.nav-tabs .active {
+  border-bottom: 2px solid #00A199;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+/** Form */
+.form-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #E7EBED;
+}
+
+/** Button */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border: 1px solid;
+  border-color: #dc3545;
+}
+
+.btn-delete {
+  position: relative;
+  bottom: 10px;
+  padding: 5px 30px;
+}
+
+.btn-delete:hover {
+  background: #dc3545;
+  color: #ffffff;
+}
+
+.btn-success {
+  background: #00A199;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #00A199;
+}
+
+.btn-default {
+  background: #F5F5F5;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  color: #959DA5;
+  border: 1px solid #F5F5F5;
+}
+
+.btn-outline-success {
+  color: #00A199;
+  border: 2px solid #00A199;
+  padding: 5px 20px;
+}
+
+.btn-start {
+  padding: 5px 20px;
+  background: #F4F5FA;
+  color: #949a9d;
+}
+
+.btn-outline-success:hover {
+  background: #00A199;
+  color: #ffffff;
+}
+
+.panel__bar {
+  clear: both;
+  padding: 20px;
+  border-top: 1px solid #E7EBED;
+  border-bottom: 1px solid #E7EBED;
+}
+
+.status__running {
+  color: #00A199;
+}
+
+/** table */
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  padding: 10px;
+  border-collapse: collapse;
+}
+.table thead th {
+  text-align: left;
+  padding: 20px;
+  vertical-align: bottom;
+  border-bottom: 2px solid #E7EBED;
+  color: #959DA5;
+}
+.table tbody td {
+  border-bottom: 2px solid #E7EBED;
+  vertical-align: bottom;
+  padding: 20px;
+}
+
+/** ICON */
+.icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  background-size: contain;
+}
+
+.icon-action {
+  height: 30px;
+  background: url("../icon/action.svg") no-repeat bottom left;
+}
+.icon-action .active {
+  background-image: url("../icon/action-green.svg");
+}
+
+.icon-pause {
+  background: url("../icon/icon-pause.svg") no-repeat bottom left;
+}
+
+.icon-restart {
+  background: url("../icon/icon-restart.svg") no-repeat bottom left;
+}
+
+.icon-start {
+  background: url("../icon//icon-start.svg") no-repeat bottom left;
+}
+
+.icon-detach {
+  background: url("../icon/detach-icon.svg") no-repeat bottom left;
+}
+
+.icon-remove {
+  background: url("../icon/remove-icon.svg") no-repeat bottom left;
+}
+
+.icon-turnoff {
+  background: url("../icon/icon-turnoff.svg") no-repeat bottom left;
+}
+
+/** Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.dropdown .arrow-top {
+  margin-top: 20px;
+  box-shadow: -1px -1px 10px -2px #949a9d;
+}
+.dropdown .arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 50px;
+  top: -10px;
+  border-top: none;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+}
+.dropdown .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #E7EBED;
+  font-size: 1px;
+  padding: 0;
+}
+.dropdown ul {
+  z-index: 1;
+  position: absolute;
+  top: 25px;
+  border: 1px solid #F4F5FA;
+  border-radius: 3px;
+  right: -50px;
+  list-style: none;
+  padding: 4px 0px;
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.125);
+}
+.dropdown ul li, .dropdown .nav ul li:last-child, .nav .dropdown ul li:last-child {
+  display: block;
+  padding: 6px 20px;
+  white-space: nowrap;
+  min-width: 100px;
+}
+.dropdown ul li:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+.dropdown input[type=checkbox]:checked {
+  position: fixed;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  cursor: pointer;
+}
+.dropdown input[type=checkbox] {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 0;
+  cursor: pointer;
+}
+.dropdown input[type=checkbox]:checked + ul {
+  display: block;
+}
+
+/* The Modal (background) */
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #2b2f33;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  color: #959DA5;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.modal-title {
+  clear: both;
+  font-size: 2.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  /* 15% from the top and centered */
+  padding: 15px;
+  border: 1px solid #888;
+  width: 45%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: rgba(0, 0, 0, 0.125);
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #949a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */

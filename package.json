@@ -1,0 +1,37 @@
+{
+  "name": "frontend-bgn",
+  "version": "1.0.0",
+  "description": "slicing image to web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --no-cache",
+    "production": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vuejs": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofyanwaldy/fronend-bgn.git"
+  },
+  "keywords": [
+    "slicing"
+  ],
+  "author": "sofyan waldy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofyanwaldy/fronend-bgn/issues"
+  },
+  "homepage": "https://github.com/sofyanwaldy/fronend-bgn#readme"
+}
