@@ -9606,7 +9606,7 @@ render._withStripped = true
         
       }
     })();
-},{"./Modal":"src/components/Modal.vue","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./Modal":"src/components/Modal.vue","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -9638,7 +9638,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -9673,17 +9673,17 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/assets/css/bootstrap.min.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/assets/css/bootstrap.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/assets/css/main.css":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/assets/css/main.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf":[["Mark Simonson - Proxima Nova Bold.5bf5c7ff.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf"],"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf":[["Mark Simonson - Proxima Nova Regular.c54311dd.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf"],"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf":[["Mark Simonson - Proxima Nova Semibold.718ff05a.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf"],"./../icon/action.svg":[["action.13837531.svg","src/assets/icon/action.svg"],"src/assets/icon/action.svg"],"./../icon/action-green.svg":[["action-green.25dd616d.svg","src/assets/icon/action-green.svg"],"src/assets/icon/action-green.svg"],"./../icon/icon-pause.svg":[["icon-pause.d1215504.svg","src/assets/icon/icon-pause.svg"],"src/assets/icon/icon-pause.svg"],"./../icon/icon-restart.svg":[["icon-restart.aa8afdab.svg","src/assets/icon/icon-restart.svg"],"src/assets/icon/icon-restart.svg"],"./../icon/icon-start.svg":[["icon-start.8dcec6cc.svg","src/assets/icon/icon-start.svg"],"src/assets/icon/icon-start.svg"],"./../icon/detach-icon.svg":[["detach-icon.57459d87.svg","src/assets/icon/detach-icon.svg"],"src/assets/icon/detach-icon.svg"],"./../icon/remove-icon.svg":[["remove-icon.d8413e8f.svg","src/assets/icon/remove-icon.svg"],"src/assets/icon/remove-icon.svg"],"./../icon/icon-turnoff.svg":[["icon-turnoff.a1a29d05.svg","src/assets/icon/icon-turnoff.svg"],"src/assets/icon/icon-turnoff.svg"],"_css_loader":"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/App.vue":[function(require,module,exports) {
+},{"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf":[["Mark Simonson - Proxima Nova Bold.5bf5c7ff.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Bold.otf"],"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf":[["Mark Simonson - Proxima Nova Regular.c54311dd.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Regular.otf"],"/Users/macbook/Projects/frontend-bgn/src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf":[["Mark Simonson - Proxima Nova Semibold.718ff05a.otf","src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf"],"src/assets/font/Proxima Nova/Mark Simonson - Proxima Nova Semibold.otf"],"./../icon/action.svg":[["action.13837531.svg","src/assets/icon/action.svg"],"src/assets/icon/action.svg"],"./../icon/action-green.svg":[["action-green.25dd616d.svg","src/assets/icon/action-green.svg"],"src/assets/icon/action-green.svg"],"./../icon/icon-pause.svg":[["icon-pause.d1215504.svg","src/assets/icon/icon-pause.svg"],"src/assets/icon/icon-pause.svg"],"./../icon/icon-restart.svg":[["icon-restart.aa8afdab.svg","src/assets/icon/icon-restart.svg"],"src/assets/icon/icon-restart.svg"],"./../icon/icon-start.svg":[["icon-start.8dcec6cc.svg","src/assets/icon/icon-start.svg"],"src/assets/icon/icon-start.svg"],"./../icon/detach-icon.svg":[["detach-icon.57459d87.svg","src/assets/icon/detach-icon.svg"],"src/assets/icon/detach-icon.svg"],"./../icon/remove-icon.svg":[["remove-icon.d8413e8f.svg","src/assets/icon/remove-icon.svg"],"src/assets/icon/remove-icon.svg"],"./../icon/icon-turnoff.svg":[["icon-turnoff.a1a29d05.svg","src/assets/icon/icon-turnoff.svg"],"src/assets/icon/icon-turnoff.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/App.vue":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9789,7 +9789,7 @@ new _vue.default({
     return h(_App.default);
   }
 });
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./App":"src/App.vue"}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./App":"src/App.vue"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -9817,7 +9817,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62649" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61201" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -9993,5 +9993,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/main.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/main.js"], null)
 //# sourceMappingURL=/main.1e43358e.js.map
